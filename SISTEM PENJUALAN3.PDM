@@ -1,0 +1,394 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|penjualan Setup Package 2|penjualan ver.1.3(Waynh Soft)]
+Icon1="SISTEM PENJUALAN3.exe"
+Title1=penjualan ver.1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|penjualan Setup Package 2|penjualan ver.1.3]
+Icon1="SISTEM PENJUALAN3.exe"
+Title1=penjualan ver.1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|penjualan Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\penjualan ver.1.3 setup
+
+[Package|penjualan Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|penjualan Setup Package 2|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|penjualan Setup Package 2|Files Found]
+master penjualan.mdb=C:\Program Files\PENJUALAN ver.1.3\master penjualan.mdb
+
+[Package|penjualan Setup Package 2|Files Released]
+
+[Package|penjualan Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+E:\SISTEM PENJUALAN3\setup penjualan ver.1.3\Support\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=
+
+[Package|penjualan Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=
+
+[Package|penjualan Setup Package 2|Files Added]
+calc.exe=
+master penjualan.mdb=
+
+[Package|penjualan Setup Package 2|Files Removed]
+c:\windows\calc.exe=
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|penjualan Setup Package 2|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=No
+D:\latian vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\WINDOWS\SYSTEM32\calc.exe=Yes
+C:\Program Files\penjualan ver.1.3\master penjualan.mdb=Yes
+
+[Package|penjualan Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|penjualan Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|penjualan Setup Package 2|Install Locations]
+D:\project vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\CALC.EXE=$(WinSysPathSysFile)
+C:\Program Files\waynh soft\penjualan ver.1.3\master penjualan.mdb=$(AppPath)
+D:\project vb\SISTEM PENJUALAN3\master penjualan.mdb=$(AppPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+E:\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=$(AppPath)
+E:\SISTEM PENJUALAN3\setup penjualan ver.1.3\Support\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\PENJUALAN ver.1.3\master penjualan.mdb=$(AppPath)
+E:\SISTEM PENJUALAN3\master penjualan.mdb=$(AppPath)
+D:\latian vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calc.exe=$(WinSysPathSysFile)
+
+[Package|penjualan Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\project vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\waynh soft\penjualan ver.1.3\master penjualan.mdb=No
+D:\project vb\SISTEM PENJUALAN3\master penjualan.mdb=No
+E:\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=No
+C:\Program Files\PENJUALAN ver.1.3\master penjualan.mdb=No
+E:\SISTEM PENJUALAN3\master penjualan.mdb=No
+D:\latian vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=No
+
+[Package|penjualan Setup Package 2|Distribution]
+Type=single
+Size=
+Title=penjualan ver.1.3
+
+[Package|penjualan Setup Package 2|IconGroups]
+Group0=penjualan ver.1.3 (Waynh Soft)
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|penjualan Setup Package 2|penjualan ver.1.3 (Waynh Soft)]
+Icon1="SISTEM PENJUALAN3.exe"
+Title1=penjualan ver.1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|penjualan Setup Package 2|Package]
+PackageFolder=e:\penjualan ver.1.3 setup
+ProjectFolder=D:\latian vb\SISTEM PENJUALAN3
+ServerSideCab=
+File1=e:\penjualan ver.1.3 setup\setup.exe
+File2=e:\penjualan ver.1.3 setup\Setup.Lst
+File3=e:\penjualan ver.1.3 setup\SISTEM PENJUALAN3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|penjualan ver.1.3(Waynh Soft)]
+Icon1="SISTEM PENJUALAN3.exe"
+Title1=penjualan ver.1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|penjualan ver.1.3]
+Icon1="SISTEM PENJUALAN3.exe"
+Title1=penjualan ver.1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\SISTEM PENJUALAN3\setup penjualan ver.1.3
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+master penjualan.mdb=
+calc.exe=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+E:\SISTEM PENJUALAN3\setup penjualan ver.1.3\Support\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+calc.exe=
+master penjualan.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\calc.exe=
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=No
+D:\latian vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\project vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\CALC.EXE=$(WinSysPathSysFile)
+C:\Program Files\waynh soft\penjualan ver.1.3\master penjualan.mdb=$(AppPath)
+D:\project vb\SISTEM PENJUALAN3\master penjualan.mdb=$(AppPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+E:\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=$(AppPath)
+E:\SISTEM PENJUALAN3\setup penjualan ver.1.3\Support\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\PENJUALAN ver.1.3\master penjualan.mdb=$(AppPath)
+E:\SISTEM PENJUALAN3\master penjualan.mdb=$(AppPath)
+D:\latian vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\project vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\waynh soft\penjualan ver.1.3\master penjualan.mdb=No
+D:\project vb\SISTEM PENJUALAN3\master penjualan.mdb=No
+E:\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=No
+C:\Program Files\PENJUALAN ver.1.3\master penjualan.mdb=No
+E:\SISTEM PENJUALAN3\master penjualan.mdb=No
+D:\latian vb\SISTEM PENJUALAN3\SISTEM PENJUALAN3.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=penjualan ver.1.3
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=penjualan ver.1.3 (Waynh Soft)
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|penjualan ver.1.3 (Waynh Soft)]
+Icon1="SISTEM PENJUALAN3.exe"
+Title1=penjualan ver.1.3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=e:\SISTEM PENJUALAN3\setup penjualan ver.1.3
+ProjectFolder=D:\latian vb\SISTEM PENJUALAN3
+ServerSideCab=
+File1=e:\SISTEM PENJUALAN3\setup penjualan ver.1.3\setup.exe
+File2=e:\SISTEM PENJUALAN3\setup penjualan ver.1.3\Setup.Lst
+File3=e:\SISTEM PENJUALAN3\setup penjualan ver.1.3\SISTEM PENJUALAN3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
